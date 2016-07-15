@@ -1,17 +1,31 @@
 ---
 layout: default
 ---
+<!-- Banner -->
+  <section id="banner">
+    <div class="inner">
+      <h2>Blog</h2>
+      <p>I also blog semi-infrequently here. See some of my general ramblings
+        below or, if you're so inclined, check out what I have to say about CS,
+        philosophy, or economics.</p>
+      <ul class="actions">
+        <li>
+          <a href="{{ site.baseurl }}/tag/cs" class="button special">Computer Science</a>
+          <a href="{{ site.baseurl }}/tag/philosophy" class="button special">Philosophy</a>
+          <a href="{{ site.baseurl }}/tag/economics" class="button special">Economics</a>
+        </li>
+      </ul>
+    </div>
+    <a href="#one" class="more scrolly">Articles</a>
+  </section>
 
-<div class="posts">
+<div class="posts" id="one">
   {% for post in site.posts %}
     <article class="post">
-
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
       <div class="entry">
         {{ post.excerpt }}
       </div>
-
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
