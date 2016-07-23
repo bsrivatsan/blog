@@ -16,6 +16,7 @@
   </head>
 
   <body class="blog">
+    <div class = "page-wrapper">
     <div class="wrapper-masthead">
       <!-- Header -->
         <header id="header" class="alt">
@@ -26,10 +27,10 @@
                 <a href="#menu" class="menuToggle"><span>Menu</span></a>
                 <div id="menu">
                   <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="project.html">Projects</a></li>
-                    <li><a href="blog">Blog</a></li>
-                    <li><a href="photo.html">Photography</a></li>
+                    <li><a href="http://{{site.url}}/index.html">Home</a></li>
+                    <li><a href="http://{{site.url}}/project.html">Projects</a></li>
+                    <li><a href="http://{{site.url}}/blog">Blog</a></li>
+                    <li><a href="http://{{site.url}}/photo.html">Photography</a></li>
                   </ul>
                 </div>
               </li>
@@ -56,6 +57,7 @@
         </ul>
       </footer>
     </div>
+  </div>
 
     <!-- Scripts -->
 			<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>

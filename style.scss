@@ -152,6 +152,10 @@ img {
 
 .wrapper-masthead {
   margin-bottom: 50px;
+  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/blog.png");
+  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/blog.png");
+  background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/blog.png");
+  background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/blog.png");
 }
 
 .masthead {
@@ -287,3 +291,39 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+
+/* Background */
+  body #page-wrapper {
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{site.baseur}}/images/blog.png");
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{site.baseur}}/images/blog.png");
+    background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{site.baseur}}/images/blog.png");
+    background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{site.baseur}}/images/blog.png");
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 0;
+  }
+
+  body #footer {
+    background-color: rgba(29, 36, 42, 0.9);
+  }
+
+  body.is-mobile #page-wrapper {
+    background: none;
+  }
+
+  body.is-mobile #banner,
+  body.is-mobile .wrapper.style4 {
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{site.baseur}}/images/blog.png");
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{site.baseur}}/images/blog.png");
+    background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{site.baseur}}/images/blog.png");
+    background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{site.baseur}}/images/blog.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  body.is-mobile #footer {
+    background-color: #1d242a;
+  }

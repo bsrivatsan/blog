@@ -6,20 +6,18 @@ layout: default
     <div class="inner">
       <h2>Blog</h2>
       <p>I also blog semi-infrequently here. See some of my general ramblings
-        below or, if you're so inclined, check out what I have to say about CS,
-        philosophy, or economics.</p>
-      <ul class="actions">
-        <li>
-          <a href="{{ site.baseurl }}/tag/cs" class="button special">Computer Science</a>
-          <a href="{{ site.baseurl }}/tag/philosophy" class="button special">Philosophy</a>
-          <a href="{{ site.baseurl }}/tag/economics" class="button special">Economics</a>
-        </li>
-      </ul>
+        below: </p>
     </div>
     <a href="#one" class="more scrolly">Articles</a>
   </section>
 
 <div class="posts" id="one">
+  <!-- <ul class="actions">
+    <li>
+      <a href="{{ site.baseurl }}/tag/cs" class="button special">Computer Science</a>
+      <a href="{{ site.baseurl }}/tag/philosophy" class="button special">Philosophy</a>
+    </li>
+  </ul> -->
   {% for post in site.posts %}
     <article class="post">
       <br/>
@@ -31,3 +29,15 @@ layout: default
     </article>
   {% endfor %}
 </div>
+
+<section id="cta" class="wrapper style4">
+  <div class="inner">
+    <ul class="actions">
+      <hr>
+      <li><a href="http://{{site.url}}/index.html" class="button special">Home</a>
+        <a href="http://{{site.url}}/project.html" class="button special">Projects</a>
+        <a href="http://{{site.url}}/photo.html" class="button special">Photography</a></li>
+      <hr>
+    </ul>
+  </div>
+</section>
