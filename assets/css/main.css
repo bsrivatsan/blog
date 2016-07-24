@@ -1411,10 +1411,6 @@
 			-webkit-animation: none !important;
 			-ms-animation: none !important;
 			animation: none !important;
-			/*-moz-transition: none !important;
-			-webkit-transition: none !important;
-			-ms-transition: none !important;
-			transition: none !important;*/
 			-moz-transition: opacity 0.5s ease;
 			-webkit-transition: opacity 0.5s ease;
 			-ms-transition: opacity 0.5s ease;
