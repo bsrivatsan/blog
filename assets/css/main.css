@@ -1,3 +1,6 @@
+---
+---
+
 @import url(font-awesome.min.css);
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
 
@@ -1396,7 +1399,11 @@
 	}
 
 	body {
-		background: #2e3842;
+		/*background: #2e3842;*/
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{site.baseurl}}/images/blog.png");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{site.baseurl}}/images/blog.png");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{site.baseurl}}/images/blog.png");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{site.baseurl}}/images/blog.png");
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1404,10 +1411,15 @@
 			-webkit-animation: none !important;
 			-ms-animation: none !important;
 			animation: none !important;
-			-moz-transition: none !important;
+			/*-moz-transition: none !important;
 			-webkit-transition: none !important;
 			-ms-transition: none !important;
-			transition: none !important;
+			transition: none !important;*/
+			-moz-transition: opacity 0.5s ease;
+			-webkit-transition: opacity 0.5s ease;
+			-ms-transition: opacity 0.5s ease;
+			transition: opacity 0.5s ease;
+			opacity: 1;
 		}
 
 	body, input, select, textarea {
@@ -3134,7 +3146,7 @@
 		-ms-transition: opacity 0.5s ease;
 		transition: opacity 0.5s ease;
 		opacity: 1;
-		padding-top: 3em;
+		padding-top: 0;
 	}
 
 		#page-wrapper:before {
@@ -3777,116 +3789,6 @@
 
 		}
 
-/* Landing */
-
-	body.landing #page-wrapper {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/header.png");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/header.png");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/header.png");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/header.png");
-		background-attachment: fixed;
-		background-position: center center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		padding-top: 0;
-	}
-
-	body.landing #footer {
-		background-color: rgba(29, 36, 42, 0.9);
-	}
-
-	body.is-mobile.landing #page-wrapper {
-		background: none;
-	}
-
-	body.is-mobile.landing #banner,
-	body.is-mobile.landing .wrapper.style4 {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/header.png");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/header.png");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/header.png");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/header.png");
-		background-position: center center;
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
-
-	body.is-mobile.landing #footer {
-		background-color: #1d242a;
-	}
-
-  /* Projects */
-
-  body.project #page-wrapper {
-    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/greece.png");
-    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/greece.png");
-    background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/greece.png");
-    background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/greece.png");
-    background-attachment: fixed;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 0;
-  }
-
-  body.project #footer {
-    background-color: rgba(29, 36, 42, 0.9);
-  }
-
-  body.is-mobile.project #page-wrapper {
-    background: none;
-  }
-
-  body.is-mobile.project #banner,
-  body.is-mobile.project .wrapper.style4 {
-    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/greece.png");
-    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/greece.png");
-    background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/greece.png");
-    background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/greece.png");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  body.is-mobile.project #footer {
-    background-color: #1d242a;
-  }
-
-/* Photos */
-  body.photo #page-wrapper {
-    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/lake.png");
-    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/lake.png");
-    background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/lake.png");
-    background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/lake.png");
-    background-attachment: fixed;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 0;
-  }
-
-  body.photo #footer {
-    background-color: rgba(29, 36, 42, 0.9);
-  }
-
-  body.is-mobile.photo #page-wrapper {
-    background: none;
-  }
-
-  body.is-mobile.photo #banner,
-  body.is-mobile.photo .wrapper.style4 {
-    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/lake.png");
-    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/lake.png");
-    background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/lake.png");
-    background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/lake.png");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  body.is-mobile.photo #footer {
-    background-color: #1d242a;
-  }
-
 	.PageNavigation {
 	  font-size: 14px;
 	  display: block;
@@ -3896,10 +3798,56 @@
 
 	.PageNavigation a {
 	  display: block;
-	  float: left;
 	  margin: 1em 0;
+		border-bottom: none;
+	}
+
+	.PageNavigation .prev {
+	  float: left;
 	}
 
 	.PageNavigation .next {
 	  float: right;
 	}
+
+	.PageNavigation .center {
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+
+	/* Background */
+	  body #page-wrapper {
+	    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{site.baseur}}/images/blog.png");
+	    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{site.baseur}}/images/blog.png");
+	    background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{site.baseur}}/images/blog.png");
+	    background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{site.baseur}}/images/blog.png");
+	    background-attachment: fixed;
+	    background-position: center center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    padding-top: 2em;
+	  }
+
+	  body #footer {
+	    background-color: rgba(29, 36, 42, 0.9);
+	  }
+
+	  body.is-mobile #page-wrapper {
+	    background: none;
+	  }
+
+	  body.is-mobile #banner,
+	  body.is-mobile .wrapper.style4 {
+	    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{site.baseur}}/images/blog.png");
+	    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{site.baseur}}/images/blog.png");
+	    background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{site.baseur}}/images/blog.png");
+	    background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{site.baseur}}/images/blog.png");
+	    background-position: center center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	  }
+
+	  body.is-mobile #footer {
+	    background-color: #1d242a;
+	  }
