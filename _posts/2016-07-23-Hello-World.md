@@ -1,5 +1,7 @@
 ---
-published: false
+layout: post
+tags:
+  - links
 ---
 ## Hello World!
 
