@@ -1,17 +1,14 @@
 ---
-published: true
 layout: post
 tags:
   - links
+published: true
 ---
 The coolest things I've seen/viewed/read this month:
 
 - For those who say tech does nothing real-world-useful: [Ycombinator does UBI](https://blog.ycombinator.com/moving-forward-on-basic-income)
-- 
 - Real-life bird whisperers (like Cesar but cooler): [The honeyguides](http://www.theatlantic.com/science/archive/2016/07/how-to-summon-the-bird-that-guides-you-to-honey/491924/)
-- 
 - A fantastic novel based on protests in Seattle; poignant and strikingly applicable today: [Your Heart Is a Muscle the Size of a Fist](https://www.amazon.com/Your-Heart-Muscle-Size-Fist/dp/0316386537)
-- 
 - One of the greatest speeches of this decade: [Michelle](https://www.youtube.com/watch?v=4ZNWYqDU948)
 - An article that puts into perspective the events of the Turkish coup: [Turkey's "top counter-terrorism official... did go to a “meeting” at the presidential palace in Ankara. He was later found with his hands tied behind his back, shot in the neck"](https://www.theguardian.com/world/2016/jul/18/military-coup-was-well-planned-and-very-nearly-succeeded-say-turkish-officials)
 - Uplifting: [_Heroische Gelassenheit_](http://econ.st/2ax7U2C). If only all our nations could behave this maturely
