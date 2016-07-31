@@ -1458,7 +1458,6 @@
 		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		color: #3c80c3;
-      	font-weight: bold;
 		text-decoration: none;
 	}
 
