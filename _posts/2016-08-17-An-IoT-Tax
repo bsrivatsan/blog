@@ -13,15 +13,28 @@ The dangers posed by Evil Toaster<sup>TM</sup> are twofold. Most customers, havi
 
 More worrying, though, is the possibility of Evil Toaster enlisting with siblings Evil Fridge, Evil Christmas Tree, and Evil Baby Diaper in the Botnet Army. By sending bad requests and packets to unprotected devices, hackers can piggyback off of the internet connections of mundane items to launch attacks or detect vulnerabilities.
 
-One way this is already manfesting itself is through widespread Distributed Denial of Service (DDoS) attacks. By overloading a service with traffic from a wide array of sources, DDoS attacks aim to crash websites and servers. While DDoS attacks have been around since at least 2000, only recently have random devices joined the call. A jewelry store's website was recently brought down by [25,000 hacked CCTV cameras](https://techcrunch.com/2016/08/16/how-to-prevent-your-iot-devices-from-being-forced-into-botnet-slavery/); a similar botnet militia has attacked[two banks, two telcos, two government agencies, and three gaming companies.](http://www.securityweek.com/botnet-uses-iot-devices-power-massive-ddos-attacks)
+One way this is already manfesting itself is through widespread Distributed Denial of Service (DDoS) attacks. By overloading a service with traffic from a wide array of sources, DDoS attacks aim to crash websites and servers, and while DDoS attacks have been around since at least 2000, only recently have random devices joined the call. A jewelry store's website was recently brought down by [25,000 hacked CCTV cameras](https://techcrunch.com/2016/08/16/how-to-prevent-your-iot-devices-from-being-forced-into-botnet-slavery/); a similar botnet militia has attacked[two banks, two telcos, two government agencies, and three gaming companies.](http://www.securityweek.com/botnet-uses-iot-devices-power-massive-ddos-attacks)
 
 It's not that solutions don't exist for these kinds of problems. Indeed, infosec startups are clamoring to enter the IoT space, with the industry set to [almost double in VC funding](http://www.forbes.com/sites/mergermarket/2016/06/07/cybersecurity-startups-set-for-surge/#2d0894701cae) during what many analysts view as a [relatively slow year in early-stage investments](https://home.kpmg.com/xx/en/home/insights/2015/10/venture-pulse.html). Clearly, our issue isn't the lack of security startups with [badass homepages](http://www.norse-corp.com/).
 
-The underlying issue is more likely the fact that we're facing a classic third-party-harm problem. Customers couldn't care less about some random gaming corporation halfway across the world, so vendors of IoT devices are disincentivized from pouring money into such solutions. If you'll indulge me by turning to page 354 of your Econ 101 textbooks, the solution is simple.
-
 ****A Tax on Toast****
 
-We have a variety of weapons in our arsenal against negative externalities, including taxation, tort laws, and (in the case of climate change) a healthy dose of desperation. 
+The underlying problem is more likely the fact that we're facing a classic third-party-harm problem. Customers couldn't care less about some random gaming corporation halfway across the world, so vendors of IoT devices are disincentivized from pouring money into such solutions.
+
+We have a variety of weapons in our arsenal against negative externalities. For one, harsher regulations to find and prosecute those companies that do inevitably build hackable devices is a must.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
