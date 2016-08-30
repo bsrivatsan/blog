@@ -8,7 +8,6 @@ This month was as crazy as the last, but then again - the Olympics took place wi
 
 From around the web:
 
-
 - As per usual, MIT Tech review is on point with their [analysis](https://www.technologyreview.com/s/602094/ais-language-problem/) on why Siri still doesn't understand my existential gripes
 - [This](https://www.washingtonpost.com/news/early-lead/wp/2016/08/24/roger-federer-and-rafael-nadal-vs-the-world-longtime-rivals-to-form-doubles-team/) will be a joy to watch. Some matches really are made in heaven
 - At long last, India takes an [important step towards modernity](http://www.nytimes.com/2016/08/04/world/asia/india-goods-and-services-tax.html)
