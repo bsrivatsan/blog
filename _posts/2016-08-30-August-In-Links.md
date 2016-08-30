@@ -1,8 +1,8 @@
 ---
-published: true
 layout: post
 tags:
   - links
+published: true
 ---
 This month was as crazy as the last, but then again - the Olympics took place without any major issues, Hillary is winning, and a peace treaty was finally signed in Colombia. Perhaps things are looking up after all!
 
